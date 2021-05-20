@@ -1,0 +1,17 @@
+{
+  "name": "coronatracker-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leorodrigues10/coronatracker-api.git",
+  "author": "leorodrigues10 <leonelmiranda10@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
